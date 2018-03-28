@@ -1,0 +1,1758 @@
+
+https://html-online.com/editor/
+https://static.livechatinc.com/8597796/P5NK4WDJEN/dc127e71e6b696d384859c45c4585ba9/data%20fields.PNG
+
+https://developer.dotmailer.com/docs/send-transactional-email
+
+https://r1-api.dotmailer.com/v2/contacts
+
+https://support.dotmailer.com/hc/en-gb/articles/115000739064-Creating-and-designing-a-transactional-email-template#designing
+
+https://static.livechatinc.com/8597796/P5NK4WDJEN/dc127e71e6b696d384859c45c4585ba9/data%20fields.PNG
+
+https://fusiontables.google.com/DataSource?classic=true&docid=1GQMSR41SB43_6JaCfYKr-PxzodIpFngYKVcRwzuB
+
+GAS - Your booking reference is 70970.
+
+http://en.savefrom.net website
+
+whatsap saver
+joanna@123
+http://majema-calendar-201819-smakprov.azurewebsites.net/
+https://klassrumskalendern18-19-test.azurewebsites.net/
+
+https://www.codeproject.com/Articles/1193423/Integrating-the-Angular-CLI-With-Visual-Studio
+
+
+https://www.codeproject.com/Articles/1193423/Integrating-Angular-CLI-With-Visual-Studio-Profess
+https://plnkr.co/edit/b2kAztHntMuNjTfOv8jD?p=preview
+http://www.talkingdotnet.com/how-to-set-html-meta-tags-using-angular-4/
+https://www.w3schools.com/cssref/css3_pr_transform-style.asp
+http://devgirl.org/2014/05/13/sample-phonegap-application-with-angularjsonsenui/
+
+
+http://www.c-sharpcorner.com/article/setting-up-angular-project-with-asp-net-core-and-visual-studio-2017/
+
+https://stackoverflow.com/questions/43643581/typings-is-not-recognized-as-an-internal-or-external-command-operable-program/44537068
+https://www.nuget.org/downloads
+
+robot
+le1
+kalender
+KN/24470/014767 01013042
+https://kalender-pwa.azurewebsites.net
+
+https://kalender-pwa-angular.azurewebsites.net
+
+https://stackify.com/15-lessons-learned-while-converting-from-asp-net-to-net-core/
+https://www.codeproject.com/Articles/1193423/Integrating-the-Angular-CLI-With-Visual-Studio
+https://dotnetthoughts.net/how-to-use-angular4-wth-aspnet-mvc/
+https://dotnetthoughts.net/how-to-use-angular4-wth-aspnet-mvc/
+https://code.luasoftware.com/tutorials/bootstrap/setup-bootstrap4-with-npm-and-webpack/
+https://madskristensen.net/blog/progressive-web-apps-made-easy-with-aspnet-core/
+https://madskristensen.net/blog/progressive-web-apps-made-easy-with-aspnet-core/
+https://pt.slideshare.net/mrjavascript/progressive-web-apps-and-react
+
+https://developers.google.com/web/fundamentals/codelabs/offline/
+APM-AI
+
+Graphik-Regular
+
+http://www.majema.se/media/pdf/Bonusmaterial/Kompisdag.pdf
+http://www.majema.se/media/pdf/Bonusmaterial/kopmall_bollar_problemlos.pdf
+
+
+https://docs.microsoft.com/en-us/azure/application-insights/app-insights-windows-services
+
+******************************************************************************
+
+
+http://localhost:63835/ebook/grade1/
+
+http://majema-calendar-201718-smakprov.azurewebsites.net/
+
+http://majema-mathematics-smakprov.azurewebsites.net/draw-character/index.html?page=files/toc/toc.html
+
+New link:
+http://majema-math-drawcharacter-smakprov.azurewebsites.net/draw-character/index.html?page=files/toc/toc.html
+ragu_raguam@yahoo.com
+
+ragu_raguam_123 -udemy
+premanand_123 - lynda
+
+codeproject-ejg5CVccoy66
+
+ragu.s@vsmarttec.com
+Majemas-julkalender.azurewebsites.net
+
+work.vsmarttec@gmail.com
+vsmarttec123
+
+sublime verification
+C:\Users\VSMART3\AppData\Roaming\Sublime Text 3
+
+6 Nationaldagen <span class="glyphicon flag_day"></span><br><p style="color:black; margin-left:5px;">Svenska flaggans dag</p>
+
+
+6 Nationaldagen <span class="glyphicon flag_day"></span><br><font style="position:absolute;color:black; padding-left: 0px;margin-right: 5px;padding-right: 14px;;margin-left: 5px;">Svenska flaggans dag</font>
+
+
+
+6 Nationaldagen <span class="glyphicon flag_day"></span><br><font style="position:absolute;color:black; padding-left: 0px;margin-right: 5px;padding-right: 14px;;margin-left: 5px;">Svenska flaggans dag</font>
+
+
+6 Nationaldagen <span class="glyphicon flag_day"></span><br><font style="position:absolute;color:black; margin-right: 5px;margin-left: 5px;">Svenska flaggans dag</font>
+
+
+
+
+public ngOnInit() {
+    this.loadScript('src/assets/js/myCropper.js');           
+    });
+}
+
+public loadScript(url) {
+    console.log('preparing to load...')
+    let node = document.createElement('script');
+    node.src = url;
+    node.type = 'text/javascript';
+    document.getElementsByTagName('head')[0].appendChild(node);
+ }
+
+
+
+
+
+var Player = function() {
+    this.textcontent = null;
+    this.word = null;
+    this.selectStart = null;
+    this.selectEnd = null;
+    this.selectPlaying = false;
+    this.currentWord = 0;
+    this.tempWord = null;
+    this.wordIndex = 0;
+    this.timer = null;
+    this.wordTimes = null;
+    this.highlightTimes = null;
+    this.sideselector = '#rightDiv';
+    this.speakableSelector = ".speakable";
+    this.isLeftSide = false;
+    this.wordTimesLeft = null;
+    this.wordTimesRight = null;
+    var context;
+   
+   
+    //$('#rightDiv,#leftDiv')
+    this.InitializePlayer = function(arrWordTimes, activeSideSelector, arrHighlightTimes) {
+        context = this;
+        context.sideselector = "#" + activeSideSelector;
+        //alert("stellababy");
+        ////alert(document.getElementById('storyContent'));
+        //context.textcontent = $(context.sideselector).contents()
+        //alert(context.textcontent.text());
+        //alert("stellababy11111");
+      
+      context.speakableSelector = context.speakableSelector.replace(".speakable.", "");
+     alert(context.speakableSelector);
+//        context.speakableSelector = context.speakableSelector.replace(context.speakableSelector, ".speakable.", "");
+                //alert(context.speakableSelector);
+        // put the words in an array
+        if (activeSideSelector == 'left') {
+            context.isLeftSide = true;
+        } else {
+            context.isLeftSide = false;
+        }
+        if (arrWordTimes) {
+          //alert("wrap");
+          //alert(context.speakableSelector);
+          //alert(context.sideselector);
+          //alert($("#storyContent").contents().find("#pages2").html());
+          //alert($("#storyContent").contents().find("#pages2"));
+          //alert($("#storyContent").contents().find(".speakable.pages2").html());
+
+          //alert($("#storyContent").contents().find("#page2").html());
+          //alert($("#storyContent").contents().find("#page2"));
+          //alert($("#storyContent").contents().find(".speakable.page2").html());
+
+
+          //alert($("#storyContent").contents());
+          
+          
+          //context.textcontent = $(context.sideselector).contents().find(context.speakableSelector);
+       //   context.textcontent = $("page1").contents();
+          //alert(context.textcontent.text());
+          var node = document.getElementById(context.speakableSelector).innerHTML;
+          alert(node);
+          //context.textcontent = node;
+          //a//lert(context.textcontent.text());
+          //alert(document.getElementById('test1').innerHTML);
+            //$('#textedit').val(context.textcontent.text());
+            //context.word = context.textcontent.text().split(" ");
+          context.word = node.split(" ");
+            //context.textcontent.text('');
+            //var wordTimes = new Array(300.9, 533.09, 1136.75, 1380.54, 2019.04);
+            context.wordTimes = arrWordTimes;
+            context.highlightTimes = arrHighlightTimes;
+            context.isLeftSide ? context.wordTimesLeft = arrWordTimes : context.wordTimesRight = arrWordTimes;
+            context.wrapWords();
+            context.checkMode();
+            context.makeSeekable();
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66666666666666666666666666666666666666666666
+
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+// to import page.js of corresponding story
+//var story = getParameterByName('story'),
+//    story = story.toLowerCase();
+//grade = "grade" + getParameterByName('grade');
+
+
+var story = "funatthebeach";
+var story1 = "topdog";
+var story2 = "petshop";
+var story3 = "whatdogslike";
+    
+grade = "grade1";
+
+
+//var src1 = '/assets/Content/storybooks/' + grade + '/' + story + '/index.html';
+//$('#container').append($('<div class="loaderWrapper"><div class="la-ball-spin-clockwise"><div></div><div></div><div></div><div></div><div></div><div></div> <div></div> <div></div></div></div>'));
+//$("#container").append($('<iframe id="storyContent" src="' + src1 + '" height="100%" width="100%" style="width:100%;height:100%;overflow:hidden"/>'));
+
+//document.getElementById
+//var ebook = getParameterByName('ebook');
+//var allChaptersLink = "../../ebook/" + grade + "/index.html";
+//var currentChapterLink = "../../ebook/" + grade + "/" + ebook + "/" + ebook + ".html";
+//$('.valijKapitel a')[0].setAttribute('href', allChaptersLink);
+//$('.valijSida a')[0].setAttribute('href', currentChapterLink);
+
+// block 1
+$.fn.preload = function() {
+    this.each(function() {
+        $('<iframe/>')[0].src = this;
+    });
+}
+// block 1
+
+// block 2
+//browser detection scripts
+//$('#chart_div').hide();
+var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+// Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
+var isFirefox = typeof InstallTrigger !== 'undefined'; // Firefox 1.0+
+var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+// At least Safari 3+: "[object HTMLElementConstructor]"
+var isChrome = !!window.chrome && !isOpera; // Chrome 1+
+var isIE = /*@@cc_on!@@*/ false || !!document.documentMode; // At least IE6
+var clickHandler = ('ontouchstart' in document.documentElement ? "touchstart" : "click");
+clickHandler = 'click';
+if (isIE) {
+    $("html").addClass("ie" + document.documentMode);
+    IEVersion = document.documentMode;
+}
+
+if (isSafari) {
+    $("html").addClass("safari " + isiPhone());
+    //$('img.startImage').attr('src', '../../Content/img/ovrig/start-safari.png');
+    //$('.circle').css('opacity', 0);
+}
+
+function isiPhone() {
+    if (navigator.platform.indexOf("iPhone") != -1)
+        return 'iphone';
+    if (navigator.platform.indexOf("iPod") != -1)
+        return 'ipod';
+    if (navigator.platform.indexOf("iPad") != -1)
+        return 'ipad';
+}
+// block 2
+
+// block 3
+var isiPad = navigator.userAgent.match(/iPad/i) != null;
+var currentPage = null;
+var autoPlay = false;
+var jplayerInitialized = false;
+var audioEnded = false;
+var position = "first"; //first|last|middle
+var jpPlayTime = $("#jplayer_play_time");
+var jpTotalTime = $("#jplayer_total_time");
+var jpPlayer = $('#jquery_jplayer');
+var highlightClass = 'highlight';
+var audioStatus = 0; // 0-Stopped | 1-Playing | 2-Paused
+var goingToHome = false;
+//init_jPlayer();
+//
+
+//init_jPlayer1();
+//init_jPlayer2();
+//init_jPlayer3();
+
+var autoSwitch = false;
+
+function setCurrentPage(cp) {
+    currentPage = cp;
+    currentPage.on("click", '.page-wrapper:not(', function(e) {
+        if (!$(e.target).parent().is(".speakable")) {
+          $('#jquery_jplayer').jPlayer1("stop");
+          // alert("hai");
+          $('#jquery_jplayer').jPlayer1("stop");
+            audioStatus = 0;
+            this.wordIndex = 0;
+            this.currentWord = 0;
+            audioEnded = true;
+            removeHighlights();
+            setTimeout(function() {
+                jpPlayer.jPlayer1("stop");
+            }, 100);
+        }
+
+    });
+    currentPage.parent().find('#seperator').hide();
+
+    currentPage.bind("turning", function(event, page, view) {
+        updateDepth(currentPage, page)
+    });
+    updateDepth(currentPage, 1)
+
+
+    var newPage = currentPage.turn('page');
+    if (newPage === '1') {
+
+      if (screen.height > screen.width) {
+        $('.flipbook').css("marginLeft", "155px");
+      } else {
+        $('.flipbook').css("marginLeft", "155px");
+      }
+    } else {
+      if (screen.height > screen.width) {
+        $('.flipbook').css("marginLeft", "155px");
+      } else {
+        $('.flipbook').css("marginLeft", "100px");
+        $('.highlightingText').css("position", "absolute");
+        $('.highlightingText').css("left", "1em");
+        $('.highlightingText').css("bottom", "2.5em");
+        $('.highlightingText').css("letter-spacing", "1px");
+        $('.highlightingText').css("font-size", "1.75em");
+        $('.highlightingText').css("FONT-FAMILY", "NexaBold");
+      }
+
+    }
+}
+$(window).on('resize', function () {
+  // alert("stella");
+    if (currentPage) {
+        updateDepth(currentPage, currentPage.turn('page'))
+    }
+});
+
+function updateDepth(book, newPage) {
+
+    var page = book.turn('page'),
+        pages = book.turn('pages'),
+        depthWidth = 16 * Math.min(1, page * 2 / pages);
+    var depthElement = currentPage.find('.depth');
+    newPage = newPage || page;
+    var container = document.getElementById('container');
+    var style = window.getComputedStyle(container, null);
+
+    var containerLeft = parseInt(style.getPropertyValue("left").replace('px', ''));
+    var containerTop = parseInt(style.getPropertyValue("top").replace('px', ''));
+    var containerWidth = parseInt(style.getPropertyValue("width").replace('px', ''));
+    var containerHeight = parseInt(style.getPropertyValue("height").replace('px', ''));
+    var transformScale = zoomRate;
+    if (isIE && IEVersion === 9) {
+        transformScale = 1;
+    }
+    //if first or last page
+    var left = containerLeft - depthWidth + (containerWidth * transformScale * 1 / 4)
+    var right = containerLeft + (containerWidth * transformScale * 1 / 4)
+    if (newPage > 3) {
+        $('.depth.left').css({
+            width: depthWidth,
+            left: containerLeft - depthWidth,
+            height: ((containerHeight + (0.2 * containerHeight / 100)) * transformScale)
+
+        });
+    } else {
+        $('.depth.left').css({ width: 0 });
+    }
+    depthWidth = 16 * Math.min(1, (pages - newPage) * 2 / pages);
+
+    if (newPage <= pages - 3) {
+        if (newPage == 1 && page !== newPage) {
+            $('.depth.right').css({ opacity: 0 });
+            $('.depth.right').animate({
+                width: depthWidth,
+                opacity: 1
+            }, 3500);
+        } else {
+            $('.depth.right').css({
+                width: depthWidth,
+                left: containerLeft + (containerWidth * transformScale),
+                height: ((containerHeight + (0.1 * containerHeight / 100)) * transformScale)
+            });
+        }
+    } else {
+        $('.depth.right').css({ width: 0 });
+    }
+    if (newPage == 1) {
+        $('.depth.right').css({ left: right });
+    }
+    if (newPage == pages) {
+        $('.depth.left').css({ left: left });
+    }
+    if (isiPad) {
+        if (newPage === '1') {
+
+            if (screen.height > screen.width) {
+                $('.flipbook').css("marginLeft", "-375px");
+            } else {
+                $('.flipbook').css("marginLeft", "-200px");
+            }
+        } else {
+            if (screen.height > screen.width) {
+                $('.flipbook').css("marginLeft", "500px");
+            } else {
+                $('.flipbook').css("marginLeft", "200px");
+                $('.highlightingText').css("position", "absolute");
+                $('.highlightingText').css("left", "1em");
+                $('.highlightingText').css("bottom", "2.5em");
+                $('.highlightingText').css("letter-spacing", "1px");
+                $('.highlightingText').css("font-size", "1.75em");
+                $('.highlightingText').css("FONT-FAMILY", "NexaBold");
+            }
+
+        }
+
+    }
+}
+
+function initStory() {
+  //alert("init");
+  //var src = "https://learn-english-first-book-test.azurewebsites.net/Content/storybooks/grade1/funatthebeach/";
+  var src = "/assets/Content/storybooks/Grade1/funatthebeach/";
+  $('#container').append($('<div class="loaderWrapper"><div class="la-ball-spin-clockwise"><div></div><div></div><div></div><div></div><div></div><div></div> <div></div> <div></div></div></div>'));
+  $("#container").append($('<iframe id="storyContent" height="100%" width="100%" style="width:100%;height:100%;overflow:hidden"/>'));
+    $('iframe')[0].src = src;
+
+  //<iframe id="storyContent" height="100%" width="100%" style="width:100%;height:100%;overflow:hidden" src="https://learn-english-first-book-test.azurewebsites.net/Content/storybooks/grade1/funatthebeach/"></iframe>
+    //alert("hello");
+    // debugger
+   // var src = '/assets/Content/storybooks/' + grade + '/' + story + '/index.html';
+  //var src = '/assets/Content/storybooks/' + grade + '/' + story + '/';
+  //  $('#container').append($('<div class="loaderWrapper"><div class="la-ball-spin-clockwise"><div></div><div></div><div></div><div></div><div></div><div></div> <div></div> <div></div></div></div>'));
+  //  $("#container").append($('<iframe id="storyContent" src="' + src + '" height="100%" width="100%" style="width:100%;height:100%;overflow:hidden"/>'))
+ //   $('iframe')[0].src = src;
+
+    //var iframe0 = document.getElementById("iframe0");
+    //var iframe0document = iframe0.contentDocument || iframe0.contentWindow.document;
+    //var inputIframe = iframe0document.getElementById("storyContent");
+    //alert("stella");
+    //alert(inputIframe.value);
+    //alert("baby");
+
+
+}
+
+function iframeLoaded() {
+    $('.loaderWrapper').hide();
+    $('#footerContent').css('visibility', 'visible');
+}
+
+var flipWaitTime = (story == 'funatthebeach')?50: (story == 'topdog') ? 200 : (story == 'petshop') ? 200 : 1100; // wait time after page turn/ flip
+
+function init_jPlayer() {
+   var check =0; // this variable is used to avoid play button cannot change while playing song.
+    $('#jquery_jplayer').jPlayer1
+     ({
+      ready: function () {
+     // alert("joanna1");
+     
+        $('#jquery_jplayer').jPlayer1("setFile", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story + ".mp3", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story + ".ogg", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story + ".m4a");
+                jplayerInitialized = true;
+ },
+      swfPath: "Scripts",
+      oggSupport: true,
+      supplied: 'm4a,mp3,ogg',
+      preload: 'auto',
+      solution: "flash,html",
+      autoPlay: true
+     }).jPlayer1("onProgressChange", function(loadPercent, playedPercentRelative, playedPercentAbsolute, playedTime, totalTime) {
+       if (flips && currentPage) {
+        // alert("s");
+   $.each(flips, function (i, e) {
+           if (e.page != currentPage.turn('page') && e.range.min < playedTime && (e.range.max > playedTime || e.range.max == "max")) {
+        
+             console.log(check);
+             audioStatus = 2;
+            
+             if (check != (e.range.min + "New")) {
+
+               jpPlayer.jPlayer1("pause");
+             }
+             check = e.range.min;
+
+             currentPage.turn('page', e.page);
+             //alert(i);
+             loadPlayer1();
+             setTimeout(function () {
+               audioStatus = 1;
+
+               setTimeout(function () {
+                 check = e.range.min + "New";
+                 jpPlayer.jPlayer1("play");
+               }, 1000)
+             }, flipWaitTime)
+           } else if (e.page == currentPage.turn('pages') && (totalTime - 300) < playedTime && e.range.max == "max" && totalTime != 0 && playedTime != 0) {
+            
+             jpPlayer.jPlayer1("stop");
+             if (!goingToHome) {
+               goingToHome = true;
+               setTimeout(function () {
+
+                 jpPlayer.jPlayer1("stop");
+                 audioStatus = 0;
+                 currentPage.turn('page', 1);
+                 goingToHome = false;
+               }, 100)
+             }
+             else {
+              // alert(playedTime);
+             }
+           }
+           else {
+           }
+
+         });
+
+         var newPage = currentPage.turn('page');
+         if (newPage === '1') {
+
+           if (screen.height > screen.width) {
+             $('.flipbook').css("marginLeft", "155px");
+           } else {
+             $('.flipbook').css("marginLeft", "155px");
+           }
+         } else {
+           if (screen.height > screen.width) {
+             $('.flipbook').css("marginLeft", "155px");
+           } else {
+             $('.flipbook').css("marginLeft", "100px");
+             $('.highlightingText').css("position", "absolute");
+             $('.highlightingText').css("left", "1em");
+             $('.highlightingText').css("bottom", "2.5em");
+             $('.highlightingText').css("letter-spacing", "1px");
+             $('.highlightingText').css("font-size", "1.75em");
+             $('.highlightingText').css("FONT-FAMILY", "NexaBold");
+           }
+
+         }
+       
+       }
+       audioEnded = false;
+
+          if (jpPlayer.jPlayer1("getData", "diag.isPlaying") == true) {
+          //  alert("s");
+          }
+      })
+
+        .jPlayer1("onSoundComplete", function() {
+
+     });
+
+    //$(document).ready(function () { $('#jplayer_play').click(); }); 
+    $(document).on('click', '#jplayer_play', function (event) {
+
+            //alert("stella");
+      //alert("jpplaytext");
+
+      //initStory();
+      init_jPlayer();
+      
+      
+
+
+    });
+    }
+
+    function init_jPlayer1() {
+    var check =0; // this variable is used to avoid play button cannot change while playing song.
+    $('#jquery_jplayer1').jPlayer1
+     ({
+      ready: function () {
+     // alert("joanna1");
+     
+        $('#jquery_jplayer1').jPlayer1("setFile", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story1 + ".mp3", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story1 + ".ogg", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story1 + ".m4a");
+                jplayerInitialized = true;
+ },
+      swfPath: "Scripts",
+      oggSupport: true,
+      supplied: 'm4a,mp3,ogg',
+      preload: 'auto',
+      solution: "flash,html",
+      autoPlay: true
+     }).jPlayer1("onProgressChange", function(loadPercent, playedPercentRelative, playedPercentAbsolute, playedTime, totalTime) {
+       if (flips1 && currentPage) {
+   $.each(flips1, function (i, e) {
+           if (e.page != currentPage.turn('page') && e.range.min < playedTime && (e.range.max > playedTime || e.range.max == "max")) {
+        
+             console.log(check);
+             audioStatus = 2;
+            
+             if (check != (e.range.min + "New")) {
+
+               jpPlayer.jPlayer1("pause");
+             }
+             check = e.range.min;
+
+             currentPage.turn('page', e.page);
+             setTimeout(function () {
+               audioStatus = 1;
+
+               setTimeout(function () {
+                 check = e.range.min + "New";
+                 jpPlayer.jPlayer1("play");
+               }, 1000)
+             }, flipWaitTime)
+           } else if (e.page == currentPage.turn('pages') && (totalTime - 300) < playedTime && e.range.max == "max" && totalTime != 0 && playedTime != 0) {
+
+             jpPlayer.jPlayer1("stop");
+             if (!goingToHome) {
+               goingToHome = true;
+               setTimeout(function () {
+
+                 jpPlayer.jPlayer1("stop");
+                 audioStatus = 0;
+                 currentPage.turn('page', 1);
+                 goingToHome = false;
+               }, 100)
+             }
+             else {
+               //alert(playedTime);
+             }
+           }
+           else {
+           }
+
+         });
+
+         var newPage = currentPage.turn('page');
+         if (newPage === '1') {
+
+           if (screen.height > screen.width) {
+             $('.flipbook').css("marginLeft", "155px");
+           } else {
+             $('.flipbook').css("marginLeft", "155px");
+           }
+         } else {
+           if (screen.height > screen.width) {
+             $('.flipbook').css("marginLeft", "155px");
+           } else {
+             $('.flipbook').css("marginLeft", "100px");
+             $('.highlightingText').css("position", "absolute");
+             $('.highlightingText').css("left", "1em");
+             $('.highlightingText').css("bottom", "2.5em");
+             $('.highlightingText').css("letter-spacing", "1px");
+             $('.highlightingText').css("font-size", "1.75em");
+             $('.highlightingText').css("FONT-FAMILY", "NexaBold");
+           }
+
+         }
+       
+       }
+       audioEnded = false;
+
+          if (jpPlayer.jPlayer1("getData", "diag.isPlaying") == true) {
+          //  alert("s");
+          }
+        })
+        .jPlayer1("onSoundComplete", function() {
+
+      });
+    }
+
+function init_jPlayer2() {
+   var check =0; // this variable is used to avoid play button cannot change while playing song.
+    $('#jquery_jplayer2').jPlayer1
+     ({
+      ready: function () {
+     // alert("joanna1");
+     
+        $('#jquery_jplayer2').jPlayer1("setFile", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story2 + ".mp3", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story2 + ".ogg", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story2 + ".m4a");
+                jplayerInitialized = true;
+ },
+      swfPath: "Scripts",
+      oggSupport: true,
+      supplied: 'm4a,mp3,ogg',
+      preload: 'auto',
+      solution: "flash,html",
+      autoPlay: true
+     }).jPlayer1("onProgressChange", function(loadPercent, playedPercentRelative, playedPercentAbsolute, playedTime, totalTime) {
+       if (flips2 && currentPage) {
+   $.each(flips2, function (i, e) {
+           if (e.page != currentPage.turn('page') && e.range.min < playedTime && (e.range.max > playedTime || e.range.max == "max")) {
+        
+             console.log(check);
+             audioStatus = 2;
+            
+             if (check != (e.range.min + "New")) {
+
+               jpPlayer.jPlayer1("pause");
+             }
+             check = e.range.min;
+
+             currentPage.turn('page', e.page);
+             setTimeout(function () {
+               audioStatus = 1;
+
+               setTimeout(function () {
+                 check = e.range.min + "New";
+                 jpPlayer.jPlayer1("play");
+               }, 1000)
+             }, flipWaitTime)
+           } else if (e.page == currentPage.turn('pages') && (totalTime - 300) < playedTime && e.range.max == "max" && totalTime != 0 && playedTime != 0) {
+
+             jpPlayer.jPlayer1("stop");
+             if (!goingToHome) {
+               goingToHome = true;
+               setTimeout(function () {
+
+                 jpPlayer.jPlayer1("stop");
+                 audioStatus = 0;
+                 currentPage.turn('page', 1);
+                 goingToHome = false;
+               }, 100)
+             }
+             else {
+               //alert(playedTime);
+             }
+           }
+           else {
+           }
+
+         });
+
+         var newPage = currentPage.turn('page');
+         if (newPage === '1') {
+
+           if (screen.height > screen.width) {
+             $('.flipbook').css("marginLeft", "155px");
+           } else {
+             $('.flipbook').css("marginLeft", "155px");
+           }
+         } else {
+           if (screen.height > screen.width) {
+             $('.flipbook').css("marginLeft", "155px");
+           } else {
+             $('.flipbook').css("marginLeft", "100px");
+             $('.highlightingText').css("position", "absolute");
+             $('.highlightingText').css("left", "1em");
+             $('.highlightingText').css("bottom", "2.5em");
+             $('.highlightingText').css("letter-spacing", "1px");
+             $('.highlightingText').css("font-size", "1.75em");
+             $('.highlightingText').css("FONT-FAMILY", "NexaBold");
+           }
+
+         }
+       
+       }
+       audioEnded = false;
+
+          if (jpPlayer.jPlayer1("getData", "diag.isPlaying") == true) {
+          //  alert("s");
+          }
+        })
+        .jPlayer1("onSoundComplete", function() {
+
+      });
+    }
+function init_jPlayer3() {
+   var check =0; // this variable is used to avoid play button cannot change while playing song.
+    $('#jquery_jplayer3').jPlayer1
+     ({
+      ready: function () {
+     // alert("joanna1");
+     
+        $('#jquery_jplayer3').jPlayer1("setFile", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story3 + ".mp3", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story3 + ".ogg", "https://majemastoragelive.blob.core.windows.net/learn-english-test/content/audio/" + story3 + ".m4a");
+                jplayerInitialized = true;
+ },
+      swfPath: "Scripts",
+      oggSupport: true,
+      supplied: 'm4a,mp3,ogg',
+      preload: 'auto',
+      solution: "flash,html",
+      autoPlay: true
+     }).jPlayer1("onProgressChange", function(loadPercent, playedPercentRelative, playedPercentAbsolute, playedTime, totalTime) {
+       if (flips3 && currentPage) {
+   $.each(flips3, function (i, e) {
+           if (e.page != currentPage.turn('page') && e.range.min < playedTime && (e.range.max > playedTime || e.range.max == "max")) {
+        
+             console.log(check);
+             audioStatus = 2;
+            
+             if (check != (e.range.min + "New")) {
+
+               jpPlayer.jPlayer1("pause");
+             }
+             check = e.range.min;
+
+             currentPage.turn('page', e.page);
+             setTimeout(function () {
+               audioStatus = 1;
+
+               setTimeout(function () {
+                 check = e.range.min + "New";
+                 jpPlayer.jPlayer1("play");
+               }, 1000)
+             }, flipWaitTime)
+           } else if (e.page == currentPage.turn('pages') && (totalTime - 300) < playedTime && e.range.max == "max" && totalTime != 0 && playedTime != 0) {
+
+             jpPlayer.jPlayer1("stop");
+             if (!goingToHome) {
+               goingToHome = true;
+               setTimeout(function () {
+
+                 jpPlayer.jPlayer1("stop");
+                 audioStatus = 0;
+                 currentPage.turn('page', 1);
+                 goingToHome = false;
+               }, 100)
+             }
+             else {
+               //alert(playedTime);
+             }
+           }
+           else {
+           }
+
+         });
+
+         var newPage = currentPage.turn('page');
+         if (newPage === '1') {
+
+           if (screen.height > screen.width) {
+             $('.flipbook').css("marginLeft", "155px");
+           } else {
+             $('.flipbook').css("marginLeft", "155px");
+           }
+         } else {
+           if (screen.height > screen.width) {
+             $('.flipbook').css("marginLeft", "155px");
+           } else {
+             $('.flipbook').css("marginLeft", "100px");
+             $('.highlightingText').css("position", "absolute");
+             $('.highlightingText').css("left", "1em");
+             $('.highlightingText').css("bottom", "2.5em");
+             $('.highlightingText').css("letter-spacing", "1px");
+             $('.highlightingText').css("font-size", "1.75em");
+             $('.highlightingText').css("FONT-FAMILY", "NexaBold");
+           }
+
+         }
+       
+       }
+       audioEnded = false;
+
+          if (jpPlayer.jPlayer1("getData", "diag.isPlaying") == true) {
+          //  alert("s");
+          }
+        })
+        .jPlayer1("onSoundComplete", function() {
+
+      });
+    }
+
+$('.jp-pause').on('click', function() {
+  audioStatus = 2;
+  //alert("jpplay1");
+});
+jpPlayer.jPlayer1("play",0);
+
+   // alert("jpplay");
+//$('.jp-play').on('click', function() {
+//    if (audioStatus != 2) {
+//        jpPlayer.jPlayer("playHeadTime", pageSeek[currentPage.turn('page')].seekTime)
+//    }
+//    alert("jpplay1");
+//    audioStatus = 1;
+//});
+
+
+$(document).on('click', '#jplayer_play', function(event) {
+
+
+    //alert("stella");
+  //alert("jpplay");
+
+    //document.getElementById('#jplayer_play').click();
+  if (audioStatus != 2) {
+    //debugger
+      $('#jquery_jplayer').jPlayer1("playHeadTime", pageSeek[currentPage.turn('page')].seekTime)
+      $('#jquery_jplayer').jPlayer1("playHeadTime", pageSeek1[currentPage.turn('page')].seekTime);
+      $('#jquery_jplayer').jPlayer1("playHeadTime", pageSeek2[currentPage.turn('page')].seekTime);
+      $('#jquery_jplayer').jPlayer1("playHeadTime", pageSeek3[currentPage.turn('page')].seekTime);}
+    // alert("jpplay");
+    
+    audioStatus = 1;
+    init_jPlayer();
+    init_jPlayer1();
+    init_jPlayer2();
+    init_jPlayer3();
+   
+    isPlaying = true;
+    audioStatus = 1;
+  
+     if (audioStatus != 2) {
+      
+          
+    }
+    // alert("jpplay");
+    // audioStatus = 1;
+    // ;
+     document.getElementById('#jplayer_play').click();
+     document.getElementById('jplayer_play').click();
+
+
+});
+$('.jp-stop').on('click', function () {
+  //alert("stella");
+    this.wordIndex = 0;
+    this.currentWord = 0;
+    audioEnded = true;
+    audioStatus = 0;
+    setTimeout(function() {
+        this.wordIndex = 0;
+        this.currentWord = 0;
+        audioEnded = true;
+        audioStatus = 0;
+        removeHighlights();
+    }, 300);
+    removeHighlights();
+});
+
+
+
+
+$(document).on('click', '#jplayer_previous', function (event) {
+ 
+  currentPage.turn('previous')
+  removeHighlights();
+  $('#jquery_jplayer').jPlayer1("stop");
+  setTimeout(function () {
+    jpPlayer.jPlayer1("stop");
+  }, 300);
+
+});
+
+
+$(document).on('click', '#jplayer_previous1', function (event) {
+ 
+  currentPage.turn('previous')
+  removeHighlights();
+  $('#jquery_jplayer1').jPlayer1("stop");
+  setTimeout(function () {
+     $('#jquery_jplayer1').jPlayer1("stop");
+  }, 300);
+
+});
+
+
+$(document).on('click', '#jplayer_previous2', function (event) {
+ 
+  currentPage.turn('previous')
+  removeHighlights();
+  $('#jquery_jplayer2').jPlayer1("stop");
+  setTimeout(function () {
+     $('#jquery_jplayer2').jPlayer1("stop");
+  }, 300);
+
+});
+
+
+$(document).on('click', '#jplayer_previous3', function (event) {
+ 
+  currentPage.turn('previous')
+  removeHighlights();
+  $('#jquery_jplayer3').jPlayer1("stop");
+  setTimeout(function () {
+     $('#jquery_jplayer3').jPlayer1("stop");
+  }, 300);
+
+});
+
+
+
+
+
+
+$(document).on('click', '#jplayer_next', function (event) {
+
+
+currentPage.turn('next')
+removeHighlights();
+$('#jquery_jplayer').jPlayer1("stop");
+setTimeout(function () {
+  jpPlayer.jPlayer1("stop");
+}, 300);
+
+});
+
+//test
+
+
+$(document).on('click', '#jplayer_next1', function (event) {
+
+
+currentPage.turn('next')
+removeHighlights();
+$('#jquery_jplayer1').jPlayer1("stop");
+setTimeout(function () {
+$('#jquery_jplayer1').jPlayer1("stop");
+}, 300);
+
+});
+//end
+
+$(document).on('click', '#jplayer_next2', function (event) {
+
+
+currentPage.turn('next')
+removeHighlights();
+$('#jquery_jplayer2').jPlayer1("stop");
+setTimeout(function () {
+$('#jquery_jplayer2').jPlayer1("stop");
+}, 300);
+
+});
+
+$(document).on('click', '#jplayer_next3', function (event) {
+
+
+currentPage.turn('next')
+removeHighlights();
+$('#jquery_jplayer3').jPlayer1("stop");
+setTimeout(function () {
+$('#jquery_jplayer3').jPlayer1("stop");
+}, 300);
+
+});
+
+
+$(document).on('click', '#jplayer_home', function (event) {
+
+  currentPage.turn('page', 1);
+  $('#jquery_jplayer').jPlayer1("stop");
+  setTimeout(function () {
+    $('#jquery_jplayer').jPlayer1("stop");
+  }, 300);
+  removeHighlights();
+  audioStatus = 0;
+
+});
+$(document).on('click', '#jplayer_home1', function (event) {
+
+  currentPage.turn('page', 1);
+  $('#jquery_jplayer1').jPlayer1("stop");
+  setTimeout(function () {
+    $('#jquery_jplayer1').jPlayer1("stop");
+  }, 300);
+  removeHighlights();
+  audioStatus = 0;
+
+});
+$(document).on('click', '#jplayer_home2', function (event) {
+
+  currentPage.turn('page', 1);
+  $('#jquery_jplayer2').jPlayer1("stop");
+  setTimeout(function () {
+    $('#jquery_jplayer2').jPlayer1("stop");
+  }, 300);
+  removeHighlights();
+  audioStatus = 0;
+
+});
+$(document).on('click', '#jplayer_home3', function (event) {
+
+  currentPage.turn('page', 1);
+  $('#jquery_jplayer3').jPlayer1("stop");
+  setTimeout(function () {
+    $('#jquery_jplayer3').jPlayer1("stop");
+  }, 300);
+  removeHighlights();
+  audioStatus = 0;
+
+});
+
+
+$(document).on('click', '#jplayer-caption1', function (event) {
+
+  if ($(this).hasClass('activate')) {
+    highlightClass = 'highlight';
+    $('.jp-caption.deactivate').show();
+  } else {
+    removeHighlights();
+    highlightClass = '';
+    $('.jp-caption.activate').show();
+
+  }
+  $(this).hide();
+
+});
+
+
+
+
+
+//$(document).on('click', '#jplayer_play', function (event) {
+$('.jp-next').on('click', function () {
+  //alert("stella");
+    currentPage.turn('next')
+    removeHighlights();
+    $('#jquery_jplayer').jPlayer1("stop");
+    setTimeout(function() {
+        jpPlayer.jPlayer1("stop");
+    }, 300);
+});
+
+//test
+
+$('.jp-next1').on('click', function () {
+  //alert("stella");
+    currentPage.turn('next')
+    removeHighlights();
+    $('#jquery_jplayer1').jPlayer1("stop");
+    setTimeout(function() {
+         $('#jquery_jplayer1').jPlayer1("stop");
+    }, 300);
+});
+
+//end
+$('.jp-next2').on('click', function () {
+  //alert("stella");
+    currentPage.turn('next')
+    removeHighlights();
+    $('#jquery_jplayer2').jPlayer1("stop");
+    setTimeout(function() {
+         $('#jquery_jplayer2').jPlayer1("stop");
+    }, 300);
+});
+
+$('.jp-next3').on('click', function () {
+  //alert("stella");
+    currentPage.turn('next')
+    removeHighlights();
+    $('#jquery_jplayer3').jPlayer1("stop");
+    setTimeout(function() {
+         $('#jquery_jplayer3').jPlayer1("stop");
+    }, 300);
+});
+
+
+$('.jp-previous').on('click', function () {
+  
+    currentPage.turn('previous')
+    removeHighlights();
+    $('#jquery_jplayer').jPlayer1("stop");
+    setTimeout(function() {
+        jpPlayer.jPlayer1("stop");
+    }, 300);
+});
+
+
+$('.jp-previous1').on('click', function () {
+  
+    currentPage.turn('previous')
+    removeHighlights();
+    $('#jquery_jplayer1').jPlayer1("stop");
+    setTimeout(function() {
+    $('#jquery_jplayer1').jPlayer1("stop");
+    }, 300);
+});
+
+
+$('.jp-previous2').on('click', function () {
+  
+    currentPage.turn('previous')
+    removeHighlights();
+    $('#jquery_jplayer2').jPlayer1("stop");
+    setTimeout(function() {
+    $('#jquery_jplayer2').jPlayer1("stop");
+    }, 300);
+});
+
+$('.jp-previous3').on('click', function () {
+  
+    currentPage.turn('previous')
+    removeHighlights();
+    $('#jquery_jplayer3').jPlayer1("stop");
+    setTimeout(function() {
+    $('#jquery_jplayer3').jPlayer1("stop");
+    }, 300);
+});
+
+
+
+$('.jp-home').on('click', function () {
+  //alert("stella2");
+    currentPage.turn('page', 1);
+    $('#jquery_jplayer').jPlayer1("stop");
+    setTimeout(function() {
+      $('#jquery_jplayer').jPlayer1("stop");
+    }, 300);
+    removeHighlights();
+    audioStatus = 0;
+});
+$('.jp-home1').on('click', function () {
+  //alert("stella2");
+    currentPage.turn('page', 1);
+    $('#jquery_jplayer1').jPlayer1("stop");
+    setTimeout(function() {
+      $('#jquery_jplayer1').jPlayer1("stop");
+    }, 300);
+    removeHighlights();
+    audioStatus = 0;
+});
+$('.jp-home2').on('click', function () {
+  //alert("stella2");
+    currentPage.turn('page', 1);
+    $('#jquery_jplayer2').jPlayer1("stop");
+    setTimeout(function() {
+      $('#jquery_jplayer2').jPlayer1("stop");
+    }, 300);
+    removeHighlights();
+    audioStatus = 0;
+});
+$('.jp-home3').on('click', function () {
+  //alert("stella2");
+    currentPage.turn('page', 1);
+    $('#jquery_jplayer3').jPlayer1("stop");
+    setTimeout(function() {
+      $('#jquery_jplayer3').jPlayer1("stop");
+    }, 300);
+    removeHighlights();
+    audioStatus = 0;
+});
+$('.jp-caption').on('click', function() {
+    if ($(this).hasClass('activate')) {
+        highlightClass = 'highlight';
+        $('.jp-caption.deactivate').show();
+    } else {
+        removeHighlights();
+        highlightClass = '';
+        $('.jp-caption.activate').show();
+
+    }
+    $(this).hide();
+});
+$('.inactive').on('click', function(event) {
+    event.stopPropagation();
+});
+function loadPlayer1() {
+  //$ = window.parent.$;
+  var $p = window.parent;
+  $p.setCurrentPage(currentPage);
+  //$p.setPageProperties(pages,flips);
+
+  var wordTimeArr = [];
+  for (var i = 1; i < pages.length; i++) {
+    //   $p.LoadPlayer(pages, 'right');
+   // alert("stella1");
+    $p.LoadPlayer2(pages[i], 'storyContent', '.speakable.page' + i, HighlightText[i],i);
+    $.each(pages[i], function (index, val) {
+      /* iterate through array or object */
+      wordTimeArr.push(val);
+    });
+
+  }
+  //$p.LoadPlayer(wordTimeArr, 'storyContent', 'speakable page8');
+  $p.iframeLoaded();
+}
+function removeHighlights() {
+
+    $('#storyContent').contents().find('.highlight').removeClass(highlightClass);
+}
+
+
+
+
+var Player = function() {
+    this.textcontent = null;
+    this.word = null;
+    this.selectStart = null;
+    this.selectEnd = null;
+    this.selectPlaying = false;
+    this.currentWord = 0;
+    this.tempWord = null;
+    this.wordIndex = 0;
+    this.timer = null;
+    this.wordTimes = null;
+    this.highlightTimes = null;
+    this.sideselector = '#rightDiv';
+    this.speakableSelector = ".speakable";
+    this.isLeftSide = false;
+    this.wordTimesLeft = null;
+    this.wordTimesRight = null;
+    var context;
+   
+   
+    //$('#rightDiv,#leftDiv')
+//    this.InitializePlayer = function(arrWordTimes, activeSideSelector, arrHighlightTimes) {
+//        context = this;
+//        context.sideselector = "#" + activeSideSelector;
+//        //alert("stellababy");
+//        ////alert(document.getElementById('storyContent'));
+//        //context.textcontent = $(context.sideselector).contents()
+//        //alert(context.textcontent.text());
+//        //alert("stellababy11111");
+      
+//      context.speakableSelector = context.speakableSelector.replace(".speakable.", "");
+//     alert(context.speakableSelector);
+////        context.speakableSelector = context.speakableSelector.replace(context.speakableSelector, ".speakable.", "");
+//                //alert(context.speakableSelector);
+//        // put the words in an array
+//        if (activeSideSelector == 'left') {
+//            context.isLeftSide = true;
+//        } else {
+//            context.isLeftSide = false;
+//        }
+//        if (arrWordTimes) {
+//          //alert("wrap");
+//          //alert(context.speakableSelector);
+//          //alert(context.sideselector);
+//          //alert($("#storyContent").contents().find("#pages2").html());
+//          //alert($("#storyContent").contents().find("#pages2"));
+//          //alert($("#storyContent").contents().find(".speakable.pages2").html());
+
+//          //alert($("#storyContent").contents().find("#page2").html());
+//          //alert($("#storyContent").contents().find("#page2"));
+//          //alert($("#storyContent").contents().find(".speakable.page2").html());
+
+
+//          //alert($("#storyContent").contents());
+          
+          
+//          //context.textcontent = $(context.sideselector).contents().find(context.speakableSelector);
+//       //   context.textcontent = $("page1").contents();
+//          //alert(context.textcontent.text());
+//          var node = document.getElementById(context.speakableSelector).innerHTML;
+//          alert(node);
+//          //context.textcontent = node;
+//          //a//lert(context.textcontent.text());
+//          //alert(document.getElementById('test1').innerHTML);
+//            //$('#textedit').val(context.textcontent.text());
+//            //context.word = context.textcontent.text().split(" ");
+//          context.word = node.split(" ");
+//            //context.textcontent.text('');
+//            //var wordTimes = new Array(300.9, 533.09, 1136.75, 1380.54, 2019.04);
+//            context.wordTimes = arrWordTimes;
+//            context.highlightTimes = arrHighlightTimes;
+//            context.isLeftSide ? context.wordTimesLeft = arrWordTimes : context.wordTimesRight = arrWordTimes;
+//            context.wrapWords();
+//            context.checkMode();
+//            context.makeSeekable();
+//        }
+//    }
+    this.InitializePlayer = function (arrWordTimes, activeSideSelector, arrHighlightTimes) {
+      context = this;
+      context.sideselector = "#" + activeSideSelector;
+      // put the words in an array
+      if (activeSideSelector == 'left') {
+        context.isLeftSide = true;
+      } else {
+        context.isLeftSide = false;
+      }
+      if (arrWordTimes) {
+        //context.textcontent = $(context.sideselector).contents().find(context.speakableSelector);
+        //$('#textedit').val(context.textcontent.text());
+      //slert(context.speakableSelector);
+        //alert(speakableSelector);
+       // context.speakableSelector = "page"+k;
+        var node = document.getElementById(speakableSelector).innerHTML;
+       // alert(node);
+
+        context.word = node.text().split(" ");
+       // context.textcontent.text('');
+        //var wordTimes = new Array(300.9, 533.09, 1136.75, 1380.54, 2019.04);
+        context.wordTimes = arrWordTimes;
+        context.highlightTimes = arrHighlightTimes;
+        context.isLeftSide ? context.wordTimesLeft = arrWordTimes : context.wordTimesRight = arrWordTimes;
+        context.wrapWords();
+        context.checkMode();
+        context.makeSeekable();
+      }
+    }
+    this.checkMode = function() {
+        clearInterval(context.timer);
+        // checks every 10 ms NB for debugging may need to use 100ms as firebug has trouble keeping up
+        context.timer = setInterval(context.checkTime, 10);
+    }
+
+    this.sumDigits = function(s) {
+        s = s + "";
+        var r = 0;
+        for (i = 0; i < s.length; i++) {
+            r = r + parseInt(s.charAt(i));
+        }
+        return r;
+    }
+    // This is called every 10 ms
+
+    this.checkTime = function() {
+
+        if (audioStatus != 0 && audioStatus != 2) {
+            // Check for selected text
+
+            if (context.selectEnd != null) {}
+
+            if (context.selectStart != null && context.selectPlaying == false) {
+                jpPlayer.jPlayer1("playHeadTime", context.wordTimes[context.selectStart]);
+                context.selectPlaying = true;
+            }
+
+            if (context.selectEnd == (context.currentWord - 1) && context.selectPlaying == true) {
+                jpPlayer.jPlayer1("pause");
+                context.selectPlaying = false;
+            }
+            if (context.wordTimes.length > 0) {
+
+                var currentTime = jpPlayer.jPlayer1("getData", "diag.playedTime");
+
+                if (context.currentWord != context.tempWord) {
+                    context.tempWord = context.currentWord;
+                }
+                if (context.highlightTimes[context.currentWord] == null && context.currentWord < context.wordTimes.length) {
+                    context.currentWord++;
+                } else {
+                    // check whether the time has arrived to display the word
+
+                    if (audioEnded == false && currentTime >= context.highlightTimes[context.currentWord] && (context.currentWord >= (context.highlightTimes.length - 1) || currentTime <= context.highlightTimes[context.currentWord + 1])) {
+                        //highlight word
+                        context.highlightWord(context.currentWord);
+                        context.currentWord++;
+                    } else {
+                        // Fast forward to the corresponding word
+
+                        while ((currentTime > context.highlightTimes[context.currentWord + 1]) && (context.currentWord < context.wordTimes.length)) {
+                            context.currentWord++;
+                        }
+
+                        // Rewind to the corresponding word
+
+                        while ((currentTime < context.highlightTimes[context.currentWord - 1]) && (context.currentWord >= 0)) {
+                            context.currentWord--;
+                        }
+                    }
+                }
+            }
+            //if (context.currentWord > context.wordTimes.length) context.currentWord = 0;
+        }
+    }
+
+
+    $(document).on('mouseup', this.speakableSelector, function(e) {
+
+        var select = context.getSelText();
+        select = new String(select).split(" ");
+
+        var i = 0;
+        var w = 0;
+        var startindex = 0,
+            endindex = 0,
+            startfound = false,
+            endfound = false,
+            matches = 0;
+
+        while (w < context.word.length) {
+
+            while (context.clean(word[w]) == select[i]) {
+                if (!startfound) {
+                    startfound = true;
+                    startindex = w;
+                } else if (i == select.length - 1) {
+                    endfound = true;
+                    endindex = w;
+                    context.selectStart = startindex;
+                    context.selectEnd = endindex;
+                    $("#selected").show().fadeOut(3000);
+
+                    return false;
+                }
+
+                i++;
+                w++;
+            }
+            i = 0;
+            startfound = false;
+            w++;
+        }
+    });
+
+
+    this.roundToDp = function(p, d) {
+        return (Math.round(p * Math.pow(10, d)) / Math.pow(10, d));
+    }
+
+    this.highlightWord = function(i) {
+        this.removeHighlights();
+        $('#storyContent').contents().find(this.speakableSelector + ' #w-' + i).addClass(highlightClass);
+    }
+    this.removeHighlights = function() {
+        $('#storyContent').contents().find('.highlight').removeClass(highlightClass);
+    }
+    this.getSelText = function() {
+        var txt = '';
+        if (window.getSelection) {
+            txt = window.getSelection();
+        } else if (document.getSelection) {
+            txt = document.getSelection();
+        } else if (document.selection) {
+            txt = document.selection.createRange().text;
+        }
+
+        return txt;
+    }
+
+    this.clean = function(s) {
+        return (s.replace('\n', '', 'g')); // Strip out carriage returns
+    }
+
+    this.wrapWords = function() {
+        var context = this;
+        $.each(context.word, function(index, value) {
+            context.textcontent.append('<a href="#' + index + '" id="w-' + index + '">' + value + " </a>");
+        });
+    }
+
+    this.makeSeekable = function() {
+        var context = this;
+        $(context.sideselector).contents().on('click', this.speakableSelector + ' a', function() {
+            $('.jp-pause').click();
+            context.timer = null
+            context.selectStart = null;
+            context.selectEnd = null;
+            context.selectPlaying = false;
+
+            var wordNum = $(this).attr('href').replace('#', '');
+            context.wordIndex = parseInt(wordNum);
+            context.currentWord = parseInt(wordNum);
+            jpPlayer.jPlayer1("playHeadTime", context.wordTimes[wordNum] - 400);
+
+            context.highlightWord(wordNum);
+            setTimeout(function () {
+              // alert("S");
+              $('.jp-play').click();
+               $('.jp-play1').click();
+                $('.jp-play2').click();
+                 $('.jp-play3').click();
+      
+                // checks every 10 ms NB for debugging may need to use 100ms as firebug has trouble keeping up
+                context.timer = setInterval(context.checkTime, 10);
+            }, 500);
+
+            //setTimeout(function () {
+            //    $('.jp-pause').click();
+            //    setTimeout(function () {
+            //        $('.jp-play').click()
+            //    }, 900);
+            //}, 700);
+
+            return false;
+        });
+    }
+};
+
+function LoadPlayer2(arrWordTimes, activeSideSelector, speakableSelector, arrHighlightTimes,i) {  //alert(arrWordTimes);
+  alert(i);
+
+  //alert(arrHighlightTimes);
+ alert(speakableSelector);
+    var p = new Player();
+    p.speakableSelector = speakableSelector;
+    p.InitializePlayer(arrWordTimes, activeSideSelector, arrHighlightTimes, speakableSelector);
+    if (activeSideSelector == 'left' && curRP > 1) {
+        removeHighlights();
+        jpPlayer.jPlayer1("playHeadTime", arrWordTimes[0] - 300);
+        if (audioStatus == 0 || audioStatus == 2) {
+            jpPlayer.jPlayer1("pause");
+        }
+        removeHighlights();
+    } else if (curRP == 1) {
+        jpPlayer.jPlayer1("stop");
+        removeHighlights();
+        audioStatus = 0;
+
+    }
+    removeHighlights();
+}
+
+initStory();
+//makeAjaxPage('html', 8, 944, 1091, '', '.png', 'var src = "https://learn-english-first-book-test.azurewebsites.net/Content/storybooks/grade1/funatthebeach/' + grade + '/' + story + '/');
+String.prototype.replaceAt = function(index, character) {
+    return this.substr(0, index) + character + this.substr(index + 1);
+}
+String.prototype.stripTags = function() {
+    var orgStr = this;
+    var newStr = orgStr.replace(/(<([^>]+)>)/ig, '');
+    return newStr;
+}
+
+
+function NoClickDelay(el) {
+    this.element = typeof el == 'object' ? el : document.getElementById(el);
+    if (window.Touch)
+        this.element.addEventListener('touchstart', this, false);
+}
+NoClickDelay.prototype = {
+    handleEvent: function(e) {
+        switch (e.type) {
+            case 'touchstart':
+                this.onTouchStart(e);
+                break;
+            case 'touchmove':
+                this.onTouchMove(e);
+                break;
+            case 'touchend':
+                this.onTouchEnd(e);
+                break;
+        }
+    },
+    onTouchStart: function(e) {
+        e.preventDefault();
+        this.moved = false;
+        this.x = e.targetTouches[0].clientX;
+        this.y = e.targetTouches[0].clientY;
+
+        this.theTarget = document.elementFromPoint(this.x, this.y);
+        if (this.theTarget.nodeType == 3) this.theTarget = theTarget.parentNode;
+        this.theTarget.className += ' hover';
+        this.element.addEventListener('touchmove', this, false);
+        this.element.addEventListener('touchend', this, false);
+
+        var theEvent = document.createEvent('MouseEvents');
+        theEvent.initEvent('mousedown', true, true);
+        this.theTarget.dispatchEvent(theEvent);
+    },
+    onTouchMove: function(e) {
+        var x = e.targetTouches[0].clientX;
+        var y = e.targetTouches[0].clientY;
+        if (Math.sqrt(Math.pow(x - this.x, 2) + Math.pow(y - this.y, 2)) > 50) {
+            this.moved = true;
+            this.theTarget.className = this.theTarget.className.replace(/ hover/gi, '');
+        } else {
+            if (this.moved == true) {
+                this.moved = false;
+                this.theTarget.className += ' hover';
+            }
+        }
+    },
+    onTouchEnd: function(e) {
+        this.element.removeEventListener('touchmove', this, false);
+        this.element.removeEventListener('touchend', this, false);
+        if (!this.moved && this.theTarget) {
+            this.theTarget.className = this.theTarget.className.replace(/ hover/gi, '');
+            var theEvent = document.createEvent('MouseEvents');
+            theEvent.initEvent('click', true, true);
+            this.theTarget.dispatchEvent(theEvent);
+
+            theEvent = document.createEvent('MouseEvents');
+            theEvent.initEvent('mouseup', true, true);
+            this.theTarget.dispatchEvent(theEvent);
+        }
+        this.theTarget = undefined;
+    }
+};
+NoClickDelay.prototype.offset = function() {
+    var _x = _y = 0;
+    var obj = document;
+
+    if (obj.offsetParent) {
+        do {
+            _x += obj.offsetLeft;
+            _y += obj.offsetTop;
+        } while (obj = obj.offsetParent);
+    }
+    return {
+        x: _x,
+        y: _y
+    };
+}
+// block 3
+
+
+// ------------ applications Insights ----------------
+$.each($("a"), function(key, value) {
+    if (this != undefined) {
+        $(this).on('click', function(evt) {
+            var evntname = "Anchor_" + evt.currentTarget.text,
+                url = window.location.href;
+            var evt = "Name: " + evntname + "; URL: " + url;
+            appInsights.trackEvent(evt);
+        });
+    }
+});
+
+setTimeout(function() { // delay for allowing highlight anchors to load completely
+    var iframe = document.getElementById('storyContent');
+    var doc = (iframe.contentDocument) ? iframe.contentDocument : iframe.contentWindow.document;
+
+    var anchors = doc.getElementsByTagName('a');
+    for (var i = 0; i < anchors.length; i++) {
+        $(anchors[i]).on('click', function(evt) {
+            var evntname = "Story_Txt_" + evt.currentTarget.innerText,
+                url = window.location.href;
+            var evt = "Name: " + evntname + "; URL: " + url;
+            appInsights.trackEvent(evt);
+        });
+    }
+}, 5000);
+// ------------ applications Insights ----------------
+<a href="#0" id="w-0">Dad </a>
+
+
+Digital calendar in large format, clear and clear layout and interactive possibilities to customize it according to your wishes. The classroom calendar is perfect for the gathering in the morning or as a conclusion to summarize the school day. we can update the calender details according to every month like summer, winder, holidays and special occasions....etc. we can add the add new holiday in list and add the picture which is used in calender. we can update the details foe whole week in same time.
+
+Dot net with Dotmailer
+
+
+
+
+klassrumskalendern18-19.scm.azurewebsites.net:443
+
+klassrumskalendern18-19
+
+klassrumskalendern18-19
+
+
+
+http://klassrumskalendern18-19.azurewebsites.net
+
+
+
+
