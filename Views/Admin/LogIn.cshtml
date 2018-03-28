@@ -1,0 +1,286 @@
+﻿@model IEnumerable<MVC5RealWorld.Models.dotmailer_project_view>
+
+
+@{
+    ViewBag.Title = "LogIn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+@*//<html>
+    //<head>
+    //    <meta name="viewport" content="width=device-width" />
+    //    <title>Index</title>
+    //</head>
+    //<body>*@
+<div class="RAYh1e">
+
+    <h4></h4>
+    <table>
+        <tr><td>Project Name &nbsp;&nbsp;&nbsp;: </td> <td>&nbsp;&nbsp;@Html.DropDownList("projname", (List<SelectListItem>)ViewBag.MyList)</td></tr>
+        <tr><td><br></td><td><br></td></tr>
+        <tr>
+            <td>Mail Recepients : </td>
+            <td>&nbsp;&nbsp;<select id="State"> </select></td>
+        </tr>
+
+
+        <tr><td><br></td><td><br></td></tr>
+        <tr><td><br></td><td><br></td></tr>
+        <tr>
+            <td></td>
+            <td>
+                &nbsp;&nbsp;
+
+                @*<div> <input type="button" id="submit" style="text-align:center" class="button" value="Submit" />  </div>*@
+                @*<button type="button"  name="submit" class="button buttons-set.disabled" value="Submit" id="submit" style="font:bold 12px arial" >
+            <span><span>Submit</span></span>
+        </button>*@
+                <button type="button" id="submit" value="submit"  style="width:70%; height:170% ; font:bold 18px arial;text-align:center" disabled>Submit</button>
+            </td>
+        </tr>
+    </table>
+   
+    @*<input id="btnGetPersons" type="button" value="Get Persons" />*@
+
+    <br />
+    <br />
+
+
+    @*<div> <select id="projname"> </select> </div>*@
+
+
+    @*@using (Html.BeginForm())*@
+    @*{@Html.DropDownList("projname", (List<SelectListItem>)ViewBag.countrydrop, "Select Project Name", new { id = "projname", style = "width: 300px;" })<br />*@
+
+    @*{@Html.DropDownList("projname", (List<SelectListItem>)ViewBag.MyList), "Select Project Name", new { id = "projname", style = "width: 300px;" })<br />}*@
+
+    @*@Html.DropDownList("projname", (List<SelectListItem>)ViewBag.MyList)<br />
+
+        <div> @Html.Label("Select States:")</div>
+
+        @*{@Html.DropDownList("State", (List<SelectListItem>)ViewBag.countrydrop, "Select Project Name", new { id = "projname", style = "width: 150px;" })<br />*@
+    @*@Html.ActionLink("Submit", "Action", "Controller", route, new { @class = "btn btn-block" })*@
+    @*<div> <select id="State"> </select> </div>
+        <div> <input type="button" id="submit" value="Submit" />  </div>*@
+
+</div>
+
+@*<input type="button" value="Send Mail" onclick="location.href='@Url.Action("sendmail", "Admin")'" />*@
+
+
+
+@*<div>
+        @Html.DropDownList("ddlcountry", (List<SelectListItem>)ViewBag.countrydrop, "Select Project Name")
+
+    </div>*@
+@**<div>*@
+@*@Html.DropDownList("ddlcountry1", (List<SelectListItem>)ViewBag.countrydrop1, "")*@
+@*@Html.DropDownList("country", ViewData["Id"] as List<SelectListItem>, new { onchange = "this.form.submit();" })*@
+@*</div>*@
+
+
+@*@Scripts.Render("~/bundles/jquery")*@
+<script>
+
+    //  var newOption="";
+
+
+    //alert("stella");
+    $(document).ready(function () {
+        // $("#State").prop("disabled", true);
+        $('#submit').click(function () {
+            //alert("submit");
+
+            var holiday_dateSelect = $('#projname').val();
+
+
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                cache: false,
+                url: "/admin/SendMail",
+                data: { "projname": holiday_dateSelect },
+
+                success: function (response, textStatus, jqXHR) {
+                    //alert(parseInt(response.oldval) + ' changed to ' + newval);
+                    //alert(response);
+                    //var items = '<option> EmailID LIST</option>';
+                    //$.each(response, function (i, state) {
+                    //    items += "<option>" + state.Text + "</option>";
+                    //});
+                    //$('#State').html(items);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert('Error - ' + errorThrown);
+                }
+            });
+        });
+
+        $('#projname').change(function () {
+            // alert("baby");
+            // alert($('#projname').val());
+
+            //$.getJSON('StateList/' + $('#projname').val(), function (data) {
+            //    var items = '<option> EmailID LIST</option>';
+            //    $.each(data, function (i, state) {
+            //        items += "<option value='" + state.Value + "'>" + state.Text + "</option>";
+            //    });
+            //    $('#State').html(items);
+            //});
+
+
+            //CountryOptions.datatype = "json";
+            //CountryOptions.contentType = "application/json";
+            //CountryOptions.success = function (StateList) {
+
+            var holiday_dateSelect = $('#projname').val();
+            //var result = "";
+            //$.getJSON("/Home/GetJsonData", null, function (data) {
+            //   // var div = $('#ajaxDiv');
+            //   // div.html("<br/> " + "Persons received from server: " + "<br/>");
+
+            //    $.each(data, function (i, item) {
+            //       printPerson(div, item);
+            //       // alert(item);
+            //    });
+            //});
+            // alert("baby");
+
+
+            //$.post("/Admin/StateList",
+            //    { projname: holiday_dateSelect },
+            //    function (response) {
+            //        //alert(response.dotmailer_record_data1[0]);
+
+            //        //alert(response.projname);
+            //        // $("#State").append("<option>stella</option>");
+            //    }
+
+            //$.ajax({
+
+            //    cache: false,
+
+            //type: "POST",
+
+            //url: "/Admin/PostMethod",
+
+            //data: { "projname": holiday_dateSelect },
+
+
+
+            //    dataType: "json",
+
+
+            //        success: function (result) {
+            //            debugger;
+            //            //alert(result.toString())
+
+            //            $.each(data, function (i, state) {
+            //    items += "<option value='" + state.Value + "'>" + state.Text + "</option>";
+            //});
+
+
+            //        },
+            //error: function (response) {
+            //    debugger;
+            //    alert('eror');
+            //}
+            //  booksDiv.html('');
+
+            //$.each(data, function (holiday_dateSelect, book) {
+
+            //    alert("stellababy");
+
+            //        alert(holiday_dateSelect);
+            //        //alert(book);
+
+            // //    //alert(book[0]);
+            // //   // alert(book);
+            // //    //result += '<b> Price :</b>' +  book + '<hr/>';
+
+            // });
+
+            //  booksDiv.html(result);
+
+            //},
+
+            //error: function (xhr, ajaxOptions, thrownError) {
+
+            //    alert('Failed to retrieve books.');
+
+            //}
+
+            //});
+
+
+
+
+
+            // );
+
+            // });
+
+
+
+            //            alert(holiday_dateSelect);
+            $.ajax({
+                type: 'POST',
+                dataType: 'json',
+                cache: false,
+                url: "/admin/StateList",
+                data: { "projname": holiday_dateSelect },
+
+                success: function (response, textStatus, jqXHR) {
+                    //alert(parseInt(response.oldval) + ' changed to ' + newval);
+                    //alert(response);
+                    var items = '<option> EmailID LIST</option>';
+                    $.each(response, function (i, state) {
+                        items += "<option>" + state.Text + "</option>";
+                    });
+                    $('#State').html(items);
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    alert('Error - ' + errorThrown);
+                }
+            });
+        });
+
+
+    });
+
+
+    function printPerson(div, item) {
+        div.append("<br/>" + "FName: " + item.FirstName + ", LName: " + item.LastName);
+        $.each(item.Addresses, function (i, addr) {
+            printAddress(div, addr);
+        });
+    }
+
+    function printAddress(div, item) {
+        div.append("<br/>" + "   " + "Line1: " + item.Line1);
+    }
+
+</script>
+
+
+@*@foreach (var item in ViewBag.MyList)
+
+    {
+
+        @item.Pname;
+
+    }*@
+
+
+
+
+
+@*</body>
+    </html>*@
+
+@*<div>
+    @Html.ActionLink("Back to Main", "Index", "Home")
+</div*@

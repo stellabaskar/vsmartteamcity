@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Majema</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.11.4.min.js"></script>
+    <link href="~/Content/themes/base/all.css" rel="stylesheet" />
+    <link href="~/Content/images/button.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div id="over">
+            @*<img src="~/images/majema-titlebar.png" width="300" height="70">*@
+            <div>
+                @*<img class="Centered" src="~/images/majema-titlebar.png" width="640" height="136" >*@
+                <img class="Centered" src="https://majemastoragetest.blob.core.windows.net/majema-mail-campaign/mail-campaign/images/majema-titlebar.png" width="640" height="136">
+                
+            </div>
+            @*@Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })*@
+            @*</div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+            </ul>
+        </div>*@
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <div class="navbar1 navbar-inverse navbar-fixed-bottom">
+                @*Copyright © 2017 Vsmart Technologies Pvt.Ltd.*@
+                <p style="text-align:right">&copy; @DateTime.Now.Year - Majema&nbsp;&nbsp;</p>
+                </div>
+        </footer>
+    </div>
+
+    
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>
